@@ -1,0 +1,326 @@
+html,
+body {
+  height: 100%;
+}
+.white {
+  color: white;
+}
+.info-top {
+  background-color: #202020;
+  text-align: right;
+  padding: 2px 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+#stickynav {
+  position: fixed;
+  top: 20;
+  width: 100%;
+  z-index: 1;
+}
+.inlogclass {
+  text-decoration: none;
+  color: #828282;
+}
+.inlogclass:hover {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  width: auto;
+  height: 45px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#Zoek {
+  color: white;
+  border-color: white;
+}
+#Zoek:hover {
+  background-color: white;
+  color: #343a40;
+}
+/*HEADER*/
+
+header {
+  background-image: url(../pic/background1.jpg);
+  background-position: relative;
+  background-repeat: cover;
+  z-index: 2;
+  height: 50vh;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 53vh;
+}
+.layeredit {
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170vh;
+}
+.active {
+  color: white;
+}
+/*HEADER einde*/
+
+.filmposter {
+  text-align: center;
+  border-radius: 3%;
+  margin: auto;
+  margin: 5 5px 0 0;
+  transition: transform 0.4s;
+  -webkit-box-shadow: -1px -2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.filmposterindex {
+  border-radius: 3%;
+  display: inline-block;
+  margin: auto;
+  float: left;
+}
+.containerfilm {
+  width: 45%;
+  float: center;
+  margin: auto;
+  display: block;
+}
+.cardimg {
+  height: 40vh;
+}
+.card {
+  margin: auto;
+  float: center;
+  -webkit-box-shadow: -1px -2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.recentefilms {
+  border-radius: 7px;
+  text-align: center;
+  margin: auto;
+  margin: 5px 10px 0 0;
+  transition: transform 0.2s;
+  -webkit-box-shadow: -1px -2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.recentefilms:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  -webkit-box-shadow: -1px -2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.filmdiv {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color: white;
+}
+.filmposter:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  -webkit-box-shadow: -1px -2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.banner {
+  width: 100%;
+  background-color: #343a40;
+  height: 310px;
+  color: white;
+  margin-top: 100px;
+}
+.latestmovie {
+  text-align: center;
+  margin: auto;
+  margin-right: 10px;
+}
+h3 {
+  color: white;
+}
+.opslaanbutton {
+  background-color: #343a40;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2px;
+}
+.opslaanbutton:hover {
+  background-color: white;
+  color: #343a40;
+}
+.formpost {
+  text-align: center;
+}
+.inlogclass {
+  margin-top: 5%;
+}
+.filminfo {
+  margin-top: 15%;
+  text-align: center;
+  display: block;
+  position: absolute;
+}
+a {
+  color: #343a40;
+}
+a:hover {
+  color: #343a40;
+}
+.allefilms {
+  margin: auto;
+  float: center;
+  display: block;
+  width: 110px;
+}
+.extrainfo {
+  display: block;
+  height: 150px;
+  width: 100%;
+}
+.bold {
+  font-weight: bold;
+}
+h5 {
+  display: block;
+}
+p {
+  color: grey;
+}
+/*film.php*/
+.filmecho {
+  text-align: center;
+  margin: auto;
+  margin-top: -30px;
+  padding: 0 30px;
+}
+.echofilminfo {
+  width: 50%;
+  float: center;
+  margin: auto;
+}
+.filmimg {
+  float: left;
+  -webkit-box-shadow: -1px -2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.filmbeschrijving {
+  color: white;
+  text-align: left;
+  display: block;
+  margin: 40px 0 0 320px;
+  width: 610px;
+  height: 488px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 0 0 20px;
+  -webkit-box-shadow: -1px -2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.trailerfilm {
+  margin-top: 10px;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: -1px -2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.h3class {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .echofilminfo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .filmimg {
+    margin-left: 50px;
+    margin-right: 0;
+  }
+  .filmbeschrijving {
+    margin-left: 50px;
+    margin-right: 0;
+    display: block;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0, 0.5);
+  }
+  .trailerfilm {
+    margin-top: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 450px;
+  }
+  .fuckedupresponsive {
+    margin-top: 375vh;
+  }
+}
+.editbutton {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5%;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.editbutton:hover {
+  background-color: white;
+  color: #343a40;
+  text-decoration: none;
+}
+.h3color {
+  color: white;
+}
+/*LOGIN*/
+/*Footer*/
+footer #footerdiv {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  opacity: 1;
+  color: white;
+  text-align: right;
+  height: 4rem; /* Footer height */
+}
+footer .footerdiv {
+  height: 70px;
+  position: sticky;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  opacity: 1;
+  color: white;
+  text-align: right;
+  padding: 0px 50px 0px 0px;
+}
+.fa {
+  display: inline-block;
+  border-radius: 10%;
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-decoration: none;
+  margin: 10px 4px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: #343a40;
+}
+.fa-twitter {
+  background: white;
+  color: #343a40;
+}
+.fa-instagram {
+  background: white;
+  color: #343a40;
+}
